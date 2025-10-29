@@ -2213,6 +2213,21 @@
     FoodLemon: 1
     FoodOrange: 1
     FoodAmbrosiaVulgaris: 1
+- type: microwaveMealRecipe
+  id: RecipeOrganicSalad
+  name: organic salad recipe
+  result: FoodOrganicSalad
+  time: 5
+  group: Salad
+  reagents:
+    Blood: 10
+  solids:
+    OrganAnimalLungs: 1
+    OrganAnimalStomach: 1
+    OrganAnimalLiver: 1
+    OrganAnimalHeart: 1
+    OrganAnimalKidneys: 1
+
 
 # Muffins
 

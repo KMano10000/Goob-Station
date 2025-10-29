@@ -1359,3 +1359,28 @@
     tags:
     - Meat
     - Soup
+- type: entity
+  name: organic salad
+  parent: FoodBowlBase
+  id: FoodOrganicSalad
+  description: A tasty salad with blood on top.
+  components:
+  - type: FlavorProfile
+    flavors:
+    - Meat
+  - type: Sprite
+    layers:
+    - state: bowl2
+    - state: eyeball
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 8
+        - ReagentId: Vitamin
+          Quantity: 2
+  - type: Tag
+    tags:
+    - Soup
