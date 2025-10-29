@@ -2213,6 +2213,7 @@
     FoodLemon: 1
     FoodOrange: 1
     FoodAmbrosiaVulgaris: 1
+
 - type: microwaveMealRecipe
   id: RecipeOrganicSalad
   name: organic salad recipe
