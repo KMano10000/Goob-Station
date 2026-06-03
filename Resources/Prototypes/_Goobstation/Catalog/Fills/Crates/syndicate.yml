@@ -122,6 +122,13 @@
     - state: icon
   - type: SetSelector
     possibleSets:
+    - SyndicateTunnelClownSet
+    - SyndicateLawyerSet
+    - SyndicateNoRussianSet
+    - SyndicatePirateCaptainSet
+    - SyndicateEngineerSet
+    - SyndicateDoorKickerSet
+    - SyndicateWesternSet
     - SyndicateSpySet
     - SyndicateHitmanSet
     - SyndicateImplantsSet
